@@ -1,0 +1,20 @@
+# python-binance — Binance REST + WebSocket SDK
+python-binance==1.0.19
+
+# Load credentials from .env file
+python-dotenv==1.0.1
+
+# HTTP transport (used internally by python-binance)
+requests==2.34.2
+
+# WebSocket transport (used internally by python-binance)
+websockets==15.0.1
+
+# Async HTTP support (required by python-binance)
+aiohttp==3.13.3
+
+# RSA / Ed25519 signature support for API authentication
+pycryptodome==3.23.0
+
+# Natural-language date parsing (pulled in by python-binance)
+dateparser==1.4.0
